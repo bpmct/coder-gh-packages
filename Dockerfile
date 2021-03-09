@@ -1,3 +1,3 @@
 FROM codercom/enterprise-node:ubuntu
 
-RUN apt-get install nano
+RUN sudo apt-get update && sudo apt-get install nano -y
